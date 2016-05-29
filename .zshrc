@@ -1,5 +1,7 @@
 source ~/.zshrc
 
+SAVEHIST=0
+
 function log_and_accept {
     BUFFER="$BUFFER & disown"
     zle accept-line
